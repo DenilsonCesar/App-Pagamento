@@ -50,7 +50,8 @@ export default function Checkout() {
                     <Title>Pagamento do pedido</Title>
                 </HeaderCheckout>
                 <WebView
-                    source={{ uri: `https://3333-f242b4a4-9b16-45ad-92f8-80bcd2dc363a.ws-us02.gitpod.io/payments/checkout/${idPagamento}/${emailPagamento}/${descricaoPagamento}/${vlrPagamento}` }}
+                //https://a5281833-6bd1-4a23-8ded-e443299dd77d.ws-us02.gitpod.io/#/workspace/Api-Pagamento
+                    source={{ uri: `https://3333-a5281833-6bd1-4a23-8ded-e443299dd77d.ws-us02.gitpod.io/payments/checkout/${idPagamento}/${emailPagamento}/${descricaoPagamento}/${vlrPagamento}` }}
                     onNavigationStateChange={state => stateChange(state)}
                     startInLoadingState={true}
                     renderLoading={() => <ActivityIndicator></ActivityIndicator>}
